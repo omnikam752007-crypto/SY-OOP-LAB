@@ -1,0 +1,25 @@
+--- Single Inheritance ---
+Animal is eating.
+Dog is barking.
+
+--- Multilevel Inheritance ---
+Animal is eating.
+Dog is barking.
+Puppy is weeping.
+
+--- Multiple Inheritance ---
+This is the Father class.
+This is the Mother class.
+This is the Child class.
+
+--- Hierarchical Inheritance ---
+Vehicle is starting.
+Car is being driven.
+Vehicle is starting.
+Bike is being ridden.
+
+--- Hybrid Inheritance ---
+This is the Student class.
+This is the Sports class.
+This is the Result class.
+This is the Person class.
