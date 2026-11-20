@@ -1,0 +1,28 @@
+===== 1. Function template: maximum() =====
+maximum(10, 20) = 20
+maximum(3.5, 2.1) = 3.5
+maximum('a', 'z') = z
+maximum("apple", "banana") = banana
+
+===== 2. Function template: swapValues() =====
+Before swap: x = 5, y = 10
+After swap: x = 10, y = 5
+Before swap: s1 = Hello, s2 = World
+After swap: s1 = World, s2 = Hello
+
+===== 3. Function template with two types =====
+Pair: (1, Apple)
+Pair: (2.5, A)
+
+===== 4. Class template: Calculator<T> =====
+Calculator<int>(20, 4):
+add = 24, subtract = 16, multiply = 80, divide = 5
+Calculator<double>(7.5, 2.5):
+add = 10, subtract = 5, multiply = 18.75, divide = 3
+
+===== 5. Class template: Stack<T> =====
+Stack<int> pop: 30
+Stack<int> pop: 20
+Stack<string> pop: Templates
+Stack<string> pop: C++
+Stack underflow
