@@ -1,0 +1,23 @@
+===== 1. std::move with string =====
+Before moving:
+str1 = Hello, C++ Programming
+
+After moving:
+str1 = 
+str2 = Hello, C++ Programming
+
+===== 2. std::move with vector =====
+Before moving: v1.size() = 5
+After moving: v1.size() = 0, v2.size() = 5
+
+===== 3. Copy constructor vs Move constructor =====
+Constructor: allocated 5 ints
+Copy constructor: copied 5 ints
+Move constructor: moved 5 ints (no copy)
+
+Buffer sizes after operations:
+b1 size = 0
+b2 size = 5
+b3 size = 5
+
+Program ended successfully.
