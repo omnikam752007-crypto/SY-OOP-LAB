@@ -1,1 +1,23 @@
+===== 1. try, throw and catch (int) =====
+Access granted. Age is 20
+Access denied. Age is 15 (must be 18 or above)
 
+===== 2. Throwing a string =====
+10 / 2 = 5
+Exception caught: Division by zero is not allowed
+
+===== 3. Custom exception class =====
+Marks 85 are valid
+Invalid marks entered: 120 (must be between 0 and 100)
+
+===== 4. Standard exception (out_of_range) =====
+arr[1] = 20
+Exception caught: Index 5 is out of range
+
+===== 5. Re-throwing an exception =====
+Inner catch: Error occurred in inner function
+Outer catch: Error occurred in inner function
+
+===== 6. Multiple catch blocks and catch-all =====
+Unknown (default) exception caught
+Program ended normally.
