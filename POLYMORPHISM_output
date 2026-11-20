@@ -1,0 +1,15 @@
+===== Compile-time Polymorphism =====
+-- Function Overloading --
+add(10, 20) = 30
+add(2.5, 3.5) = 6
+add(1, 2, 3) = 6
+-- Operator Overloading --
+c1 = 3 + 4i
+c2 = 1 + 2i
+c1 + c2 = 4 + 6i
+
+===== Runtime Polymorphism =====
+Generic Shape, Area = 0
+Circle (r = 5), Area = 78.5397
+Rectangle (4 x 6), Area = 24
+Triangle (b = 3, h = 8), Area = 12
